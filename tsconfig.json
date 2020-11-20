@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "strictNullChecks": false,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "rootDir": ".",
+    "typeRoots": [
+        "node_modules/@types"
+    ],
+    "types": [
+      "@types/node",
+      "@nuxt/types",
+      "jest",
+      "vue"
+    ],
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
